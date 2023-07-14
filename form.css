@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 body{
-    width: 100%;
     min-height: 100vh;
-    font-size: 16px;
+    
     justify-content: center;
     align-items: center;
 }
@@ -13,6 +13,30 @@ body{
 .flex{
     display: flex;
 }
+
 .form{
     width: 350px;
+    background-color: #ecf0f1;
+    border-radius:5px;
+    box-shadow: 3px 3px 10px #333;
+}
+
+.form_{
+    border: none;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+label{
+    margin: 0.5em 0;
+}
+
+input{
+    padding: 0.75em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    font-size: 1em;
 }

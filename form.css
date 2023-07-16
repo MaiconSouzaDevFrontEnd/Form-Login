@@ -5,7 +5,7 @@
 
 body{
     min-height: 100vh;
-    
+    background-color: #ccc;
     justify-content: center;
     align-items: center;
 }
@@ -15,14 +15,23 @@ body{
 }
 
 .form{
-    width: 350px;
+    width: 380px;
     background-color: #ecf0f1;
     border-radius:5px;
     box-shadow: 3px 3px 10px #333;
+    padding: 1em;
 }
 
 .form_{
     border: none;
+    padding: 0;
+}
+
+.form_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: .1em 0;
 }
 
 input, label {
@@ -32,10 +41,12 @@ input, label {
 
 label{
     margin: 0.5em 0;
+    font-size: .89em;
 }
 
 input{
-    padding: 0.75em;
+    padding: 0.50em 0.75em;
+    border: 1px solid #77777785;
     border-radius: 5px;
     margin-bottom: 1.5em;
     font-size: 1em;

@@ -60,6 +60,7 @@ input{
 .btn{
     cursor: pointer;
     color: white;
+    font-weight: bold;
     border: none;
     background-image:linear-gradient(rgb(105, 76, 76), rgba(0,0,0,0.4));
 }

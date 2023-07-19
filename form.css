@@ -51,3 +51,19 @@ input{
     margin-bottom: 1.5em;
     font-size: 1em;
 }
+
+.box-action{
+    display: flex;
+    gap: 10px
+}
+
+.btn{
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-image:linear-gradient(rgb(105, 76, 76), rgba(0,0,0,0.4));
+}
+
+.btn_2{
+    background-color: red;
+}
